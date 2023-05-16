@@ -1,0 +1,17 @@
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(223, 198, 198);
+  border-radius: 8px;
+}
+
+.content,
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

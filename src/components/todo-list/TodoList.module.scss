@@ -1,0 +1,33 @@
+.todoList {
+  padding: 20px;
+}
+
+.toolBar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sortBar {
+  margin-right: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.sortBy,
+.searchBy {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+
+.todosContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
